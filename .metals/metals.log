@@ -870,3 +870,38 @@ WARNING: Unmatched cancel notification for request id 9720
 2024.11.23 21:59:50 INFO  Shut down connection with build server.
 2024.11.23 21:59:50 INFO  Shut down connection with build server.
 2024.11.23 21:59:50 INFO  Exiting server
+2024.11.24 15:52:04 INFO  Started: Metals version 1.4.1 in folders 'C:\lab_1' for client Visual Studio Code 1.95.3.
+2024.11.24 15:52:05 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.24 15:52:06 INFO  no build target found for C:\lab_1\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.24 15:52:06 INFO  Attempting to connect to the build server...
+2024.11.24 15:52:06 INFO  Found a Bloop server running
+2024.11.24 15:52:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\lab_1\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 15:52:07 INFO  Attempting to connect to the build server...
+2024.11.24 15:52:07 INFO  Found a Bloop server running
+2024.11.24 15:52:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\lab_1\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 15:52:08 INFO  time: Connected to build server in 1.86s
+2024.11.24 15:52:08 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.24 15:52:08 INFO  time: Imported build in 0.11s
+2024.11.24 15:52:08 INFO  running doctor check
+2024.11.24 15:52:08 INFO  java targets: lab_1-build, lab_1-test, lab_1
+2024.11.24 15:52:12 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.24 15:52:13 INFO  time: indexed workspace in 5.71s
+но€б. 24, 2024 3:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 695
+2024.11.24 15:57:17 INFO  compiling lab_1 (1 scala source)
+2024.11.24 15:57:17 INFO  time: compiled lab_1 in 0.68s
+2024.11.24 15:57:49 INFO  compiling lab_1 (1 scala source)
+2024.11.24 15:57:49 INFO  time: compiled lab_1 in 0.4s
+2024.11.24 15:58:30 INFO  compiling lab_1 (1 scala source)
+2024.11.24 15:58:30 INFO  time: compiled lab_1 in 0.17s
+2024.11.24 15:58:58 INFO  time: compiled lab_1 in 22ms
+но€б. 24, 2024 3:59:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1045
+2024.11.24 16:00:03 INFO  compiling lab_1 (1 scala source)
+2024.11.24 16:00:03 INFO  time: compiled lab_1 in 0.47s
+но€б. 24, 2024 4:00:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1317
+2024.11.24 16:00:57 INFO  compiling lab_1 (1 scala source)
+2024.11.24 16:00:57 INFO  time: compiled lab_1 in 0.41s
+но€б. 24, 2024 4:06:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
